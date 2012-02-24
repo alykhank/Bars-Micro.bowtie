@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Bars Micro</title>
+<!--	noartwork image by Philipp Antoni from "Minimal" Bowtie theme-->
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+	<script src="scripts.js" type="text/javascript"></script>
+</head>
+<body id="bowlet" onload='mousing()'>
+	<div id="environ">
+		<div id="albumart">
+			<img src="" id="artwork" alt="artwork" />
+		</div>
+		<span id="block"></span>
+		<a href="#" onclick="return playPause();">
+		<div id="pause"><span class="pausebar" /><span class="pausebar" /></div>
+		<div id="play">&#9658;</div>
+		<div id="circle"></div>
+		</a>
+		<a href="#" onclick="return previousTrack();"><span class="dot" id="dot1">&#8810;</span></a>
+		<div id="titleElement">trackTitle</div>
+		<a href="#" onclick="return changeColor();"><span class="dot" id="dot2">&bull;</span></a>
+		<div id="artistElement">trackArtist</div>
+		<a href="#" onclick="return nextTrack();"><span class="dot" id="dot3">&#8811;</span></a>
+		<div id="albumElement">trackAlbum</div>
+	</div>
+</body>
+</html>

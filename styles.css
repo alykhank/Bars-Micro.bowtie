@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	color: rgba(255,255,255,.8);
+/*	color: rgba(0,0,0,1);*/
+	font-size: 12px;
+	line-height: 1.2;
+	font-family: 'Cantarell', Helvetica, Arial, sans-serif;
+/*	background: rgba(230,230,230,.2);*/
+/*	-webkit-border-radius: 10px;*/
+}
+#environ{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height: 60px;
+	width: 300px;
+	background: rgba(0,0,0,.6);
+	-webkit-border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+}
+#albumart {
+	float: left;
+}
+#artwork {
+	height: 50px;
+	width: 50px;
+	border: 5px solid rgba(255,255,255,.5);
+/*	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,1);*/
+	position: absolute;
+}
+#titleElement, #artistElement, #albumElement {
+	position: relative;
+	margin-top: 2px;
+	margin-left: 75px;
+	padding: 2px;
+/*	text-shadow: -1px 0px #000, 1px 0px #000, 0px -1px #000, 0px 1px #000;*/
+	width: 220px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+/*	text-shadow: 0px 1px 1px rgba(0,0,0,1);*/
+}
+
+.dot {
+	position: absolute;
+	float: left;
+	width: 5px;
+	font-family: Lucida Grande;
+	font-size: 13px;
+	margin-left: 64px;
+	padding: 2px;
+}
+
+#play {
+	position: absolute;
+	top: 18px;
+	left: 23px;
+	color: rgba(0,0,0,.7);
+	font-size: 18px;
+	height: 30px;
+	width: 30px;
+	z-index: 2;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+#pause {
+	position: absolute;
+	top: 24px;
+	left: 18px;
+	z-index: 2;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+.pausebar {
+	position: absolute;
+	margin-left: 7px;
+	background: rgba(0,0,0,.7);
+	height: 11px;
+	width: 4px;
+	z-index: 2;
+}
+
+#circle {
+	position: absolute;
+	background: rgba(255,255,255,.5);
+	height: 30px;
+	width: 30px;
+	-webkit-border-radius: 100px;
+	top: 15px;
+	left: 15px;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+#block {
+	position: absolute;
+	background: rgba(0,0,0,.6);
+	top: 5px;
+	left: 5px;
+	height: 50px;
+	width: 50px;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+/*remove underlines from links/buttons*/
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,.8);
+}

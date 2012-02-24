@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTThemeName</key>
+	<string>Bars Micro</string>
+	<key>BTThemeArtist</key>
+	<string>Alykhan Kanji</string>
+	<key>BTArtistURL</key>
+	<string>http://alykhan.com</string>
+	<key>BTThemeIdentifier</key>
+	<string>com.alykhankanji.BarsMicro</string>
+	<key>BTThemeVersion</key>
+	<string>1.0</string>
+	<key>BTThemePreviewImage</key>
+	<string>preview.png</string>
+	<key>BTMainFile</key>
+	<string>index.html</string>
+	<key>BTWindowHeight</key>
+	<integer>60</integer>
+	<key>BTWindowWidth</key>
+	<integer>300</integer>
+	<key>BTWindowMode</key>
+	<string>desktop</string>
+	<key>BTTrackFunction</key>
+	<string>trackUpdate</string>
+	<key>BTArtworkFunction</key>
+	<string>artworkUpdate</string>
+	<key>BTPlayStateFunction</key>
+	<string>stateUpdate</string>
+	<key>BTArtworkHeight</key>
+	<string>50</string>
+	<key>BTArtworkWidth</key>
+	<string>50</string>
+</dict>
+</plist>
